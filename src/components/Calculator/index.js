@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Button from '../Button';
 import classNames from 'classnames';
+import Display from "../Display";
 import styles from './Calculator.module.css';
 
 class Calculator extends Component {
