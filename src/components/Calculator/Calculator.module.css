@@ -1,0 +1,69 @@
+.container {
+    margin-top: 26px;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+td  {
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    font-size: 24px;
+}
+
+td + td {
+    border-left: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr + tr {
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+
+.operator {
+    background-color: #E6E8EA;
+}
+
+.operator:active {
+    background-color: #AAACAE;
+}
+
+.controls {
+    width: 100%;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex: 1;
+}
+
+.flexCol + .flexCol {
+    border-left: 1px solid gray;
+}
+
+.button {
+    flex: 1;
+}
+
+.equal {
+    flex-grow: 4;
+}
+
+.operator {
+
+}
+
+.selectedOperator {
+
+}
